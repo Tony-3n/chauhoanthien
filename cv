@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Châu Hoàn Thiện</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            grid-column: span 2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        h1, p {
+            margin: 0;
+        }
+
+        section {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: #fff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="371067308_1747459232392013_939307031024238176_n.jpg" alt="Name">
+        </div>
+        <div>
+            <h1>Châu Hoàn Thiện</h1>
+            <p>Ho Chi Minh City University of Education</p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Contact</h2>
+        <ul>
+            <li>&#8226; Phone: 0796883794</li>
+            <li>&#8226; Email: hoanhoan010@gmail.com</li>
+            <li>&#8226; LinkedIn: <a href="https://www.linkedin.com/in/hoan-thien-chau-2a848b273/" target="_blank">linkedin.com/in/hoan-thien-chau-2a848v273</a></li>
+            <li>&#8226; GitHub: <a href="https://github.com/Tony-3n" target="_blank">https://github.com/Tony-3n</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>&#8226; <strong>Ho Chi Minh City University of Education</strong> - Bachelor's Degree in IT Teaching (2023- )</li>
+            <li>&#8226; <strong>Trung học Thực Hành - Đại học Sư phạm Thành phố Hồ Chí Minh</strong> - Graduation (2022)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>&#8226; HTML, CSS, JavaScript</li>
+            <li>&#8226; Web Development Frameworks</li>
+            <li>&#8226; Database Management(mainly SQL)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            19 years old. Like playing gacha games, watching youtubes and sleeping.
+        </p>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <ul>
+            <li>&#8226; English - Fluent</li>
+            <li>&#8226; Java - Proficient</li>
+            <li>&#8226; C - Good enough</li>
+        </ul>
+    </section>
+</body>
+</html>
